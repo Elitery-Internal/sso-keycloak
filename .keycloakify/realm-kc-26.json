@@ -552,20 +552,20 @@
             "totp": true,
             "credentials": [
                 {
-                    "id": "576982e2-6fb3-4752-8724-5ff390ea8301",
-                    "type": "password",
-                    "userLabel": "My password",
-                    "createdDate": 1716183916529,
-                    "secretData": "{\"value\":\"9hwJ989FAr0UgT0MfffNYSI6Zf/3qT/y17DTUcwbiEM=\",\"salt\":\"C3ZnHzgPd+0Lemw4olCOgA==\",\"additionalParameters\":{}}",
-                    "credentialData": "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
-                },
-                {
                     "id": "88198fb5-1b6a-483d-be0b-0a37aca9d544",
                     "type": "otp",
                     "userLabel": "",
                     "createdDate": 1750260433358,
                     "secretData": "{\"value\":\"nhQsvNDB0wMsF4jh8dHV\"}",
                     "credentialData": "{\"subType\":\"totp\",\"digits\":6,\"counter\":0,\"period\":30,\"algorithm\":\"HmacSHA1\"}"
+                },
+                {
+                    "id": "576982e2-6fb3-4752-8724-5ff390ea8301",
+                    "type": "password",
+                    "userLabel": "My password",
+                    "createdDate": 1716183916529,
+                    "secretData": "{\"value\":\"9hwJ989FAr0UgT0MfffNYSI6Zf/3qT/y17DTUcwbiEM=\",\"salt\":\"C3ZnHzgPd+0Lemw4olCOgA==\",\"additionalParameters\":{}}",
+                    "credentialData": "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
                 }
             ],
             "disableableCredentialTypes": [],

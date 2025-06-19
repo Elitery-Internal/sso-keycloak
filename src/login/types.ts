@@ -9,6 +9,7 @@ type CustomTemplateProps<T> = Omit<
 >;
 
 type PageProps<T> = {
+    Template: (props: CustomTemplateProps<T>) => JSX.Element;
     kcContext: Extract<KcContext, { pageId: T }>;
     i18n: I18n;
 };
